@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB2B50D16E1AF7300C34C3C /* volumeBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6BB2B50A16E1AF7300C34C3C /* volumeBar.bundle */; };
+		6BB2B50E16E1AF7300C34C3C /* VolumeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB2B50C16E1AF7300C34C3C /* VolumeBar.m */; };
+		6BC1DABC16DEE81C00C6929E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1DABB16DEE81C00C6929E /* UIKit.framework */; };
+		6BC1DABE16DEE81C00C6929E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1DABD16DEE81C00C6929E /* Foundation.framework */; };
+		6BC1DAC016DEE81C00C6929E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1DABF16DEE81C00C6929E /* CoreGraphics.framework */; };
+		6BC1DAC616DEE81C00C6929E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1DAC416DEE81C00C6929E /* InfoPlist.strings */; };
+		6BC1DAC816DEE81D00C6929E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1DAC716DEE81D00C6929E /* main.m */; };
+		6BC1DACC16DEE81D00C6929E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1DACB16DEE81D00C6929E /* AppDelegate.m */; };
+		6BC1DACE16DEE81D00C6929E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1DACD16DEE81D00C6929E /* Default.png */; };
+		6BC1DAD016DEE81D00C6929E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1DACF16DEE81D00C6929E /* Default@2x.png */; };
+		6BC1DAD216DEE81D00C6929E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1DAD116DEE81D00C6929E /* Default-568h@2x.png */; };
+		6BC1DAD516DEE81D00C6929E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC1DAD416DEE81D00C6929E /* ViewController.m */; };
+		6BC1DAD816DEE81D00C6929E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1DAD616DEE81D00C6929E /* ViewController_iPhone.xib */; };
+		6BC1DADB16DEE81D00C6929E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC1DAD916DEE81D00C6929E /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BB2B50A16E1AF7300C34C3C /* volumeBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = volumeBar.bundle; sourceTree = "<group>"; };
+		6BB2B50B16E1AF7300C34C3C /* VolumeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeBar.h; sourceTree = "<group>"; };
+		6BB2B50C16E1AF7300C34C3C /* VolumeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeBar.m; sourceTree = "<group>"; };
+		6BC1DAB716DEE81C00C6929E /* VolumeBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC1DABB16DEE81C00C6929E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BC1DABD16DEE81C00C6929E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BC1DABF16DEE81C00C6929E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BC1DAC316DEE81C00C6929E /* VolumeBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VolumeBar-Info.plist"; sourceTree = "<group>"; };
+		6BC1DAC516DEE81C00C6929E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BC1DAC716DEE81D00C6929E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BC1DAC916DEE81D00C6929E /* VolumeBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VolumeBar-Prefix.pch"; sourceTree = "<group>"; };
+		6BC1DACA16DEE81D00C6929E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BC1DACB16DEE81D00C6929E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BC1DACD16DEE81D00C6929E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6BC1DACF16DEE81D00C6929E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6BC1DAD116DEE81D00C6929E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6BC1DAD316DEE81D00C6929E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BC1DAD416DEE81D00C6929E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BC1DAD716DEE81D00C6929E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6BC1DADA16DEE81D00C6929E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC1DAB416DEE81C00C6929E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1DABC16DEE81C00C6929E /* UIKit.framework in Frameworks */,
+				6BC1DABE16DEE81C00C6929E /* Foundation.framework in Frameworks */,
+				6BC1DAC016DEE81C00C6929E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB2B50916E1AF7300C34C3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BB2B50A16E1AF7300C34C3C /* volumeBar.bundle */,
+				6BB2B50B16E1AF7300C34C3C /* VolumeBar.h */,
+				6BB2B50C16E1AF7300C34C3C /* VolumeBar.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6BC1DAAC16DEE81C00C6929E = {
+			isa = PBXGroup;
+			children = (
+				6BC1DAC116DEE81C00C6929E /* VolumeBar */,
+				6BC1DABA16DEE81C00C6929E /* Frameworks */,
+				6BC1DAB816DEE81C00C6929E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC1DAB816DEE81C00C6929E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1DAB716DEE81C00C6929E /* VolumeBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC1DABA16DEE81C00C6929E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1DABB16DEE81C00C6929E /* UIKit.framework */,
+				6BC1DABD16DEE81C00C6929E /* Foundation.framework */,
+				6BC1DABF16DEE81C00C6929E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC1DAC116DEE81C00C6929E /* VolumeBar */ = {
+			isa = PBXGroup;
+			children = (
+				6BB2B50916E1AF7300C34C3C /* Classes */,
+				6BC1DACA16DEE81D00C6929E /* AppDelegate.h */,
+				6BC1DACB16DEE81D00C6929E /* AppDelegate.m */,
+				6BC1DAD316DEE81D00C6929E /* ViewController.h */,
+				6BC1DAD416DEE81D00C6929E /* ViewController.m */,
+				6BC1DAD616DEE81D00C6929E /* ViewController_iPhone.xib */,
+				6BC1DAD916DEE81D00C6929E /* ViewController_iPad.xib */,
+				6BC1DAC216DEE81C00C6929E /* Supporting Files */,
+			);
+			path = VolumeBar;
+			sourceTree = "<group>";
+		};
+		6BC1DAC216DEE81C00C6929E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1DAC316DEE81C00C6929E /* VolumeBar-Info.plist */,
+				6BC1DAC416DEE81C00C6929E /* InfoPlist.strings */,
+				6BC1DAC716DEE81D00C6929E /* main.m */,
+				6BC1DAC916DEE81D00C6929E /* VolumeBar-Prefix.pch */,
+				6BC1DACD16DEE81D00C6929E /* Default.png */,
+				6BC1DACF16DEE81D00C6929E /* Default@2x.png */,
+				6BC1DAD116DEE81D00C6929E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC1DAB616DEE81C00C6929E /* VolumeBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC1DADE16DEE81D00C6929E /* Build configuration list for PBXNativeTarget "VolumeBar" */;
+			buildPhases = (
+				6BC1DAB316DEE81C00C6929E /* Sources */,
+				6BC1DAB416DEE81C00C6929E /* Frameworks */,
+				6BC1DAB516DEE81C00C6929E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeBar;
+			productName = VolumeBar;
+			productReference = 6BC1DAB716DEE81C00C6929E /* VolumeBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC1DAAE16DEE81C00C6929E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = luyf;
+			};
+			buildConfigurationList = 6BC1DAB116DEE81C00C6929E /* Build configuration list for PBXProject "VolumeBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BC1DAAC16DEE81C00C6929E;
+			productRefGroup = 6BC1DAB816DEE81C00C6929E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC1DAB616DEE81C00C6929E /* VolumeBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC1DAB516DEE81C00C6929E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1DAC616DEE81C00C6929E /* InfoPlist.strings in Resources */,
+				6BC1DACE16DEE81D00C6929E /* Default.png in Resources */,
+				6BC1DAD016DEE81D00C6929E /* Default@2x.png in Resources */,
+				6BC1DAD216DEE81D00C6929E /* Default-568h@2x.png in Resources */,
+				6BC1DAD816DEE81D00C6929E /* ViewController_iPhone.xib in Resources */,
+				6BC1DADB16DEE81D00C6929E /* ViewController_iPad.xib in Resources */,
+				6BB2B50D16E1AF7300C34C3C /* volumeBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC1DAB316DEE81C00C6929E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC1DAC816DEE81D00C6929E /* main.m in Sources */,
+				6BC1DACC16DEE81D00C6929E /* AppDelegate.m in Sources */,
+				6BC1DAD516DEE81D00C6929E /* ViewController.m in Sources */,
+				6BB2B50E16E1AF7300C34C3C /* VolumeBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BC1DAC416DEE81C00C6929E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1DAC516DEE81C00C6929E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BC1DAD616DEE81D00C6929E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1DAD716DEE81D00C6929E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6BC1DAD916DEE81D00C6929E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC1DADA16DEE81D00C6929E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BC1DADC16DEE81D00C6929E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BC1DADD16DEE81D00C6929E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC1DADF16DEE81D00C6929E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VolumeBar/VolumeBar-Prefix.pch";
+				INFOPLIST_FILE = "VolumeBar/VolumeBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BC1DAE016DEE81D00C6929E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VolumeBar/VolumeBar-Prefix.pch";
+				INFOPLIST_FILE = "VolumeBar/VolumeBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC1DAB116DEE81C00C6929E /* Build configuration list for PBXProject "VolumeBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1DADC16DEE81D00C6929E /* Debug */,
+				6BC1DADD16DEE81D00C6929E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC1DADE16DEE81D00C6929E /* Build configuration list for PBXNativeTarget "VolumeBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC1DADF16DEE81D00C6929E /* Debug */,
+				6BC1DAE016DEE81D00C6929E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC1DAAE16DEE81C00C6929E /* Project object */;
+}
